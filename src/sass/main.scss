@@ -5,9 +5,12 @@
 @import "./base/base";
 @import "./base/typography";
 // Components
+@import "./components/btn";
+@import "./components/paragraph";
 @import "./components/header";
 @import "./components/strip";
 @import "./components/hero";
+@import "./components/presentation";
 @import "./components/footer";
 // Pages
 @import "./pages/index";

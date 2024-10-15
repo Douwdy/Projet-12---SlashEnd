@@ -1,0 +1,16 @@
+.paragraph{
+    h1{
+        margin: 0;
+        font-size: 48px;
+        font-weight: 300;
+        font-style: italic;
+        color: $color-primary;
+    }
+    p{
+        margin: 0;
+        font-size: 18px;
+        font-family: monospace;
+        font-weight: 400;
+        color: $color-secondary;
+    }
+}
