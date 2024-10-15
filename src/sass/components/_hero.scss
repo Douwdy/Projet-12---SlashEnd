@@ -1,0 +1,45 @@
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    margin: 150px 20% 150px 20%;
+    height: 250px;
+    &-desc{
+        display: flex;
+        align-items: left;
+        justify-content: space-between;
+        flex-direction: column;
+        width: 600px;
+        height: 100%;
+        h1{
+            margin: 0;
+            font-size: 48px;
+            font-weight: 300;
+            font-style: italic;
+            color: $color-primary;
+        }
+        h2{
+            margin: 0;
+            font-size: 38px;
+            font-family: Ubuntu, sans-serif;
+            font-weight: 400;
+            color: $color-secondary;
+        }
+        a{
+            color: $color-primary;
+            font-size: 18px;
+            font-family: Ubuntu, sans-serif;
+            font-weight: 400;
+            text-decoration: underline;
+            &:hover{
+                color: $color-secondary;
+            }
+        }
+    }
+    &-img{
+        height: 100%;
+        object-fit: cover;
+        border-radius: 50% 0% 50% 0% ;
+    }
+}
