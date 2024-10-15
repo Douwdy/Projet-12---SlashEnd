@@ -1,0 +1,22 @@
+.strip{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    background-color: $color-primary;
+    border-top: $color-secondary 3px solid;
+    border-bottom: $color-secondary 3px solid;
+    height: 40px;
+    width: 100%;
+    &__inner{
+        animation: strip 1s ease forwards;
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        flex-direction: row;
+        font-size: 1.5rem;
+        color: white;
+        p{
+            margin: 0;
+        }
+    }
+}
