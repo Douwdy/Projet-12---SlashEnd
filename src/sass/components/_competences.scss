@@ -9,7 +9,34 @@
 
 .competences{
     &-desc{
-
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        width: 80%;
+        margin: 75px 10% 75px 10%;
+        &_cards{
+            margin-left: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            gap: 20px;
+            &-card{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background: $color-primary;
+                height: 120px;
+                width: 370px;
+                border-radius: 15px;
+                h2{
+                    margin-left: 10px;
+                    color: white;
+                    font-size: 3.5rem;
+                }
+            }
+        }
     }
     &-techs{
         display: flex;

@@ -2,6 +2,7 @@ import React from 'react';
 import Paragraph from './Paragraph';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHtml5, faCss3Alt, faJs, faReact, faNodeJs, faFigma, faSass } from '@fortawesome/free-brands-svg-icons';
+import { faCode, faMagnifyingGlass, faPenNib } from '@fortawesome/free-solid-svg-icons';
 const Competences = () => {
 
     return (
@@ -13,6 +14,20 @@ const Competences = () => {
                 en optimisation des performances me permet de livrer des applications web réactives et modulaires,
                 toujours en accord avec les meilleures pratiques du développement.
                 </Paragraph>
+                <div className='competences-desc_cards'>
+                    <div className='competences-desc_cards-card'>
+                    <FontAwesomeIcon icon={faCode} style={{color: "white"}} size='3x'/>
+                        <h2>Code</h2>
+                    </div>
+                    <div className='competences-desc_cards-card'>
+                    <FontAwesomeIcon icon={faPenNib} style={{color: "white"}} size='3x'/>
+                        <h2>Design</h2>
+                    </div>
+                    <div className='competences-desc_cards-card'>
+                    <FontAwesomeIcon icon={faMagnifyingGlass} style={{color: "white"}} size='3x'/>
+                        <h2>SEO</h2>
+                    </div>
+                </div>
             </div>
             <div className='competences-techs'>
                 <div className='competences-techs_dev'>

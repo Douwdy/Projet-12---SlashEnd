@@ -14,6 +14,7 @@ function App() {
       <Presentation />
       <Strip angle={-1} />
       <Competences />
+      <Strip angle={1} />
       <Footer />
     </>
   );
