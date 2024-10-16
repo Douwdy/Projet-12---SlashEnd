@@ -5,7 +5,7 @@ import Paragraph from './Paragraph';
 
 const Presentation = () => {
     return (
-        <section className="presentation">
+        <section className="presentation" id='about'>
             <div className="presentation-picture">
                 <img src={pfp} alt="Guillaume" />
                 <h1>Guillaume</h1>

@@ -6,7 +6,7 @@ import { faCode, faMagnifyingGlass, faPenNib } from '@fortawesome/free-solid-svg
 const Competences = () => {
 
     return (
-        <section className="competences">
+        <section className="competences" id='techs'>
             <div className='competences-desc'>
                 <Paragraph title="Mes compétences">
                 En tant que Développeur web, je maîtrise l'HTML, le CSS avec SASS, ainsi que le JavaScript et le framework React.
