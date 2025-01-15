@@ -1,0 +1,250 @@
+.projects{
+    flex-direction: column;
+    z-index: 1;
+    h4{
+        font-family: Poppins;
+        color: $color-text;
+        font-size: 1.3em;
+        margin: 0px 0px 0px 0px;
+        z-index: 1;
+    }
+    &-deck{
+        flex-direction: row;
+        width: 80vw;
+        margin: 30px;
+        &_card{
+            border-radius: 5px;
+            width: 60px;
+            height: 228px;
+            box-shadow: 5px 0px 5px rgba($color: #000000, $alpha: 0.1);
+        }
+    }
+    &-desc{
+        border: lighten($color-text,30%) dotted 2px;
+        width: 300px;
+        min-height: 200px;
+        padding: 10px;
+        border-radius: 10px;
+        &_title{
+            font-family: "Poppins";
+            color: $color-text;
+            font-size: 1.3em;
+            margin: 0px;
+        }
+        &_txt{
+            font-family: "SpaceMono";
+            color: $color-text;
+            filter: opacity(0.7);
+            font-size: 0.8em;
+            margin: 0px;
+            width: 300px;
+        }
+        &_btn{
+            margin-top: 8px;
+            font-family: Poppins;
+            font-size: 0.9em;
+            height: 25px;
+            width: 125px;
+            background-color: $color-highlight;
+            color: $color-background;
+            border-radius: 15px;
+            transition: scale 0.2s ease-in-out;
+            &:hover{
+                scale: 1.05;
+                transition: scale 0.2s ease-in-out;
+            }
+        }
+        &_animation{
+            animation: projectPopup 1s ease-in-out;
+        }
+    }
+}
+
+#refsco81{
+    background-image: url(../../assets/img/Projects/refsco81.png);
+    flex-direction: column;
+    transition: transform 0.5s ease-in-out;
+    &:hover{
+        cursor: pointer;
+        transform: translateY(-25px);
+        transition: transform 0.5s ease-in-out;
+    }
+}
+
+#booki{
+    background-image: url(../../assets/img/Projects/booki.jpg);
+    flex-direction: column;
+    transition: transform 0.5s ease-in-out;
+    &:hover{
+        cursor: pointer;
+        transform: translateY(-20px);
+        transition: transform 0.5s ease-in-out;
+    }
+}
+
+#ohMyFood{
+    background-image: url(../../assets/img/Projects/ohmyfood.png);
+    flex-direction: column;
+    z-index: 1;
+    transition: transform 0.5s ease-in-out;
+    &:hover{
+        cursor: pointer;
+        transform: translateY(-25px);
+        transition: transform 0.5s ease-in-out;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .projects{
+        flex-direction: column;
+        z-index: 1;
+        h4{
+            font-family: Poppins;
+            color: $color-text;
+            font-size: 1.3em;
+            margin: 0px 0px 0px 0px;
+            z-index: 1;
+        }
+        &-deck{
+            flex-direction: row;
+            width: 62vw;
+            margin: 30px;
+            &_card{
+                border-radius: 5px;
+                width: 60px;
+                height: 228px;
+                box-shadow: 5px 0px 5px rgba($color: #000000, $alpha: 0.1);
+            }
+        }
+    }
+    
+    #ridingCities{
+        background-image: url(../../assets/img/Projects/riding.png);
+        background-position: center;
+        background-size: cover;
+        flex-direction: column;
+        transition: transform 0.5s ease-in-out;
+        &:hover{
+            cursor: pointer;
+            transform: translateY(-20px);
+            transition: transform 0.5s ease-in-out;
+        }
+    }
+
+    #printIt{
+        background-image: url(../../assets/img/Projects/print.webp);
+        background-position: center;
+        background-size: cover;
+        flex-direction: column;
+        transition: transform 0.5s ease-in-out;
+        &:hover{
+            cursor: pointer;
+            transform: translateY(-20px);
+            transition: transform 0.5s ease-in-out;
+        }
+    }
+
+    #sophieBluel{
+        background-image: url(../../assets/img/Projects/sophie-bluel.webp);
+        background-position: center;
+        background-size: cover;
+        flex-direction: column;
+        transition: transform 0.5s ease-in-out;
+        &:hover{
+            cursor: pointer;
+            transform: translateY(-20px);
+            transition: transform 0.5s ease-in-out;
+        }
+    }
+
+    #kasa{
+        background-image: url(../../assets/img/Projects/kasa.webp);
+        background-position: center;
+        background-size: cover;
+        flex-direction: column;
+        transition: transform 0.5s ease-in-out;
+        &:hover{
+            cursor: pointer;
+            transform: translateY(-20px);
+            transition: transform 0.5s ease-in-out;
+        }
+    }
+
+    #ninaCarducci{
+        background-image: url(../../assets/img/Projects/nina.webp);
+        background-position: center;
+        background-size: cover;
+        flex-direction: column;
+        transition: transform 0.5s ease-in-out;
+        &:hover{
+            cursor: pointer;
+            transform: translateY(-20px);
+            transition: transform 0.5s ease-in-out;
+        }
+    }
+
+    #Events{
+        background-image: url(../../assets/img/Projects/events.png);
+        background-position: center;
+        background-size: cover;
+        flex-direction: column;
+        transition: transform 0.5s ease-in-out;
+        &:hover{
+            cursor: pointer;
+            transform: translateY(-20px);
+            transition: transform 0.5s ease-in-out;
+        }
+    }
+
+    #argentBank{
+        background-image: url(../../assets/img/Projects/argentbank.webp);
+        background-position: 450px;
+        background-size: cover;
+        flex-direction: column;
+        transition: transform 0.5s ease-in-out;
+        &:hover{
+            cursor: pointer;
+            transform: translateY(-20px);
+            transition: transform 0.5s ease-in-out;
+        }
+    }
+
+    #refsco81{
+        background-image: url(../../assets/img/Projects/refsco81.png);
+        background-position: center;
+        background-size: cover;
+        flex-direction: column;
+        transition: transform 0.5s ease-in-out;
+        &:hover{
+            cursor: pointer;
+            transform: translateY(-20px);
+            transition: transform 0.5s ease-in-out;
+        }
+    }
+    
+    #booki{
+        background-image: url(../../assets/img/Projects/booki.jpg);
+        background-position: center;
+        background-size: cover;
+        flex-direction: column;
+        transition: transform 0.5s ease-in-out;
+        &:hover{
+            cursor: pointer;
+            transform: translateY(-20px);
+            transition: transform 0.5s ease-in-out;
+        }
+    }
+    
+    #ohMyFood{
+        background-image: url(../../assets/img/Projects/ohmyfood.png);
+        background-position: center;
+        background-size: cover;
+        flex-direction: column;
+        transition: transform 0.5s ease-in-out;
+        &:hover{
+            cursor: pointer;
+            transform: translateY(-20px);
+            transition: transform 0.5s ease-in-out;
+        }
+    }
+}

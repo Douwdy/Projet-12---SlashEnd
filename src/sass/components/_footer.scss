@@ -1,0 +1,44 @@
+footer{
+    z-index: 5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: $color-text;
+    height: 125px;
+}
+
+.footer{
+    z-index: 5;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 89px;
+    width: 317px;
+    img{
+        height: 38px;
+        margin-bottom: 5px;
+    }
+    h6{
+        margin: 0px;
+        font-family: SpaceMono;
+        font-weight: 100;
+        color: $color-background;
+        font-size: 1em;
+    }
+    &-social{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: row;
+        width: 317px;
+        &_links{
+            font-family: SpaceMono;
+            color: $color-background;
+            font-size: 0.7em;
+            &:hover{
+                color: $color-highlight;
+            }
+        }
+    }
+}

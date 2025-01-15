@@ -1,0 +1,93 @@
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 5;
+    background: linear-gradient(0deg, rgba(65,166,105,0) 0%, rgba(65,166,105,0.2) 100%);
+    height: 57px;
+    width: 100%;
+    img{
+        margin-left: 10px;
+        margin-top: 10px;
+        user-select: none;
+        height: 43px;
+        width: 43px;
+    }
+    .header-secret{
+        display: none;
+    }
+    .header_2{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 25px 20px 20px 20px;
+        height: 57px;
+        width: 100%;
+        a{
+            cursor: pointer;
+            text-decoration: none;
+            color: $color-text;
+            font-family: "SpaceMono";
+            font-size: 0.80em;
+            line-height: 0px;
+        }
+    }
+}
+
+@media screen and (min-width: 768px){
+    header{
+        img{
+            margin-left: 10px;
+            margin-top: 20px;
+            height: 57px;
+            width: 57px;
+        }
+        height: 57px;
+        width: 100%;
+        .header-secret{
+            margin-top: 15px;
+            display: none;
+            align-items: center;
+            justify-content: space-between;
+            flex-direction: row;
+            width: 200px;
+            &_btn{
+                color: $color-text;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border-radius: 37px;
+                border: $color-text solid 2px;
+                height: 37px;
+                width: 200px;
+                font-family: SpaceMono;
+                background: white;
+                transition: all 1s ease;
+            }
+        }
+        .header_2{
+            margin: 35px 50px 20px 50px;
+            height: 57px;
+            width: 40%;
+            a{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                height: 37px;
+                padding: 0px 15px 0px 15px;
+                font-size: 1em;
+                line-height: 0px;
+                border-radius: 37px;
+                &:hover{
+                    height: 37px;
+                    padding: 0px 15px 0px 15px;
+                    border-radius: 37px;
+                    transition: all ease-in-out 0.2s;
+                    background-color: lighten($color-text, 20%);
+                    color: $color-background;
+                }
+            }
+        }
+    }
+}

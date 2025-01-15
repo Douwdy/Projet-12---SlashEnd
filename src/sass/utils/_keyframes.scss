@@ -1,0 +1,51 @@
+@keyframes popUp{
+    0%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(-1px);
+        color: $color-highlight;
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+
+@keyframes upAndDown {
+    0%{
+        transform: translateY(-20px);
+    }
+    50%{
+        transform: translateY(0px);
+        color: $color-highlight;
+    }
+    100%{
+        transform: translateY(-20px);
+    }
+}
+
+@keyframes dash {
+    0%{
+        border-width: 2px;
+    }
+    100%{
+        border-width: 2px;
+    }
+  }
+
+@keyframes projectPopup {
+    0%{
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+@keyframes rainbow {
+    to{
+        filter: hue-rotate(360deg);
+    }
+}

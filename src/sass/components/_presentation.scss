@@ -1,0 +1,65 @@
+.presentation{
+    flex-direction: column;   
+    z-index: 1;
+    h2{
+        font-family: Poppins;
+        margin: 0px 0px 8px 0px;
+        font-size: 2em;
+        color: $color-text;
+        z-index: 1;
+    }
+    img{
+        height: 290px;
+        border-radius: 10px;
+        z-index: 1;
+    }
+    h3{
+        font-family: Poppins;
+        margin: 3px 0px 0px 0px;
+        font-size: 1.8em;
+        color: $color-text;
+        z-index: 1;
+    }
+    p{
+        margin-top: 25px;
+        width: 90%;
+        font-family: SpaceMono;
+        font-size: 1em;
+        color: $color-text;
+        z-index: 1;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .presentation{
+        flex-direction: column;
+        z-index: 1;
+        h2{
+            font-family: Poppins;
+            margin: 0px 0px 8px 0px;
+            font-size: 2.2em;
+            color: $color-text;
+            z-index: 1;
+        }
+        img{
+            height: 290px;
+            border-radius: 10px;
+            z-index: 1;
+        }
+        h3{
+            font-family: Poppins;
+            margin: 3px 0px 0px 0px;
+            font-size: 1.8em;
+            color: $color-text;
+            z-index: 1;
+        }
+        p{
+            margin-top: 25px;
+            width: 440px;
+            font-family: SpaceMono;
+            font-size: 1.2em;
+            color: $color-text;
+            z-index: 1;
+        }
+    }
+}

@@ -1,0 +1,9 @@
+#emojiRain{
+    filter: blur(3px);
+    overflow-x: clip;
+    overflow-y: visible;
+    span{
+        z-index: 0;
+        user-select: none;
+    }
+}
