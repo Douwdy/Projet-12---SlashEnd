@@ -78,7 +78,7 @@ const Projects = () => {
             <div className="projects-desc" id="desc">
                 {selectedProject && (
                     <div className="projects-desc_animation">
-                        <h6 className="projects-desc_title">{selectedProject.title}</h6>
+                        <h5 className="projects-desc_title">{selectedProject.title}</h5>
                         <p className="projects-desc_txt">{selectedProject.desc}</p>
                         <a href={selectedProject.link}>
                             <div className="projects-desc_btn flex-center">Voir le projet</div>
