@@ -31,7 +31,7 @@ const Hero = () => {
                 <div className="hero-btn_2"></div>
             </div>
             <div className="hero-arrow">
-                <a href="#products">
+                <a href="#presentation">
                     <img src={arrow} alt="Flèche"></img>
                 </a>
             </div>

@@ -1,4 +1,4 @@
-import placeholder from '../../assets/img/placeholder.png';
+import placeholder from '../../assets/img/placeholder.webp';
 
 const Products = () => {
     return (

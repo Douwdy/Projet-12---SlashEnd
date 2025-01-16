@@ -1,4 +1,4 @@
-import pfp from '../../assets/img/pfp-fullsize.png';
+import pfp from '../../assets/img/pfp-fullsize.webp';
 
 const Presentation = () => {
     return (
