@@ -36,8 +36,9 @@
 
 @media screen and (min-width: 850px){
     .products{
-        height: 100vh !important;
+        height: 100vh ;
         flex-direction: row;
+        flex-wrap: wrap;
         &-item{
             &_desc{
                 height: 320px;
