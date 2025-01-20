@@ -6,6 +6,7 @@ import Presentation from './components/presentation/index';
 import Products from './components/products/index';
 import Hero from './components/hero/index';
 import EmojiRain from './components/emojiRain';
+import Skills from './components/skills/index';
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
         <main id="index">
         <Hero />
         <Presentation />
+        <Skills />
         <Products />
         <Projects />
         </main>

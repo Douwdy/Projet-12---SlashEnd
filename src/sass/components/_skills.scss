@@ -1,0 +1,39 @@
+.skills{
+    height: 100%;
+    margin-bottom: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    h3{
+        font-family: Poppins, sans-serif;
+        font-size: 1.5em;
+        color: $color-text;
+    }
+    &-article{
+        width: 50%;
+        border-radius: 15px;
+        padding: 15px;
+        margin-bottom: 10px;
+        border: lighten($color-text,30%) dotted 2px;
+        &_title{
+            font-family: Poppins, sans-serif;
+            font-size: 1.1em;
+            margin: 0;
+            color: $color-text;
+        }
+        &_desc{
+            font-family: SpaceMono, sans-serif;
+            font-size: 1em;
+            margin: 0;
+            color: $color-text;
+        }
+        &_date{
+            font-family: Poppins, sans-serif;
+            font-weight: 700;
+            font-size: 2em;
+            margin: 0;
+            color: $color-text;
+        }
+    }
+}

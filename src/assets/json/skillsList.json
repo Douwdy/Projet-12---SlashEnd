@@ -1,0 +1,22 @@
+[
+    {
+        "title": "Apprentisage auto-didacte de Java",
+        "description": "J'ai appris Java en autodidacte en suivant des tutoriels sur internet afin de comprendre les bases de la programmation orientée objet et ainsi pouvoir développer des mods et plugin pour Minecraft.",
+        "date": 2015
+    },
+    {
+        "title": "Apprentisage auto-didacte de HTML/CSS",
+        "description": "J'ai appris le HTML et le CSS grace a un amis dont c'est le métier, cela m'a permis de comprendre les bases du développement web et de realiser mes premiers projets dans le web.",
+        "date": 2019
+    },
+    {
+        "title": "Formation de développeur web chez OpenClassrooms",
+        "description": "J'ai suivi une formation de développeur web chez OpenClassrooms pour approfondir mes connaissances en développement web et apprendre de nouvelles technologies comme SASS et JavaScript.",
+        "date": 2022
+    },
+    {
+        "title": "Formation d'intégrateur web chez OpenClassrooms",
+        "description": "N'ayant pas pu finir ma formation de développeur web chez OpenClassrooms, j'ai décidé de suivre une formation d'intégrateur web pour me spécialiser dans le développement front-end et approfondir d'avantage mes connaisance dans cette branche. Lors de cette formation j'ai donc appris le JavaScript, React, Redux.",
+        "date": 2024
+    }
+]
