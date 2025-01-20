@@ -10,7 +10,7 @@
         align-items: center;
         justify-content: center;
         flex-direction: column;
-        width: 400px;
+        width: 90%;
         height: 600px;
         &_desc{
             height: 300px;
@@ -28,7 +28,7 @@
         }
         img{
             object-fit: cover;
-            width: 400px;
+            width: 100%;
             height: 200px;
         }
     }
@@ -40,6 +40,8 @@
         flex-direction: row;
         flex-wrap: wrap;
         &-item{
+            margin: 0px;
+            width: 400px;
             &_desc{
                 height: 320px;
                 flex-direction: column;
@@ -49,6 +51,9 @@
                 p{
                     font-size: 1em;
                 }
+            }
+            img{
+                width: 400px;
             }
         }
     }

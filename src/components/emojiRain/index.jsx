@@ -1,8 +1,8 @@
-import { useEffect, useRef } from 'react';
+import { useEffect, useRef, useMemo } from 'react';
 
 const EmojiRain = () => {
     // Emoji Rain
-    const emoji = ['🌿', '🍂'];
+    const emoji = useMemo(() => ['🌿', '🍂'], []);
     const circlesRef = useRef([]);
 
     useEffect(() => {
