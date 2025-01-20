@@ -40,7 +40,7 @@ const EmojiRain = () => {
             }
 
             update() {
-                if (this.y > window.innerHeight * 6.9) {
+                if (this.y > window.innerHeight * 4.7) {
                     this.y = 80 + Math.random() * 4;
                     this.x = this.range[0] + Math.random() * this.range[1];
                 }
