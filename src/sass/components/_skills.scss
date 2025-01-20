@@ -37,3 +37,12 @@
         }
     }
 }
+
+@media screen and (max-width: 768px){
+    .skills{
+        &-article{
+            width: 85%;
+        }
+    }
+    
+}
