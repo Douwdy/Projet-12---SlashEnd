@@ -1,10 +1,39 @@
 # SlashEnd Remake React
 
-This project is a React application that serves as a remake of the SlashEnd project. It is structured to provide a clean and organized codebase, utilizing components for modularity and Sass for styling.
+## Description
+
+Le projet SlashEnd Remake est une application React qui sert de remake du projet SlashEnd. Il est structuré pour fournir une base de code propre et organisée, en utilisant des composants pour la modularité et Sass pour le style.
+
+## Objectifs
+
+- Créer une interface utilisateur dynamique et réactive.
+- Utiliser React pour créer des composants réutilisables et gérer l'état de l'application.
+- Assurer une navigation fluide et intuitive pour les utilisateurs.
+- Implémenter des fonctionnalités modernes et optimisées pour le SEO.
+
+## Messages pour les autres étudiants d'OpenClassrooms
+
+- Ne copiez pas le code, ça ne vous aidera pas à apprendre React et Sass.
+- Vous pouvez vous aider des commentaires dans le code pour comprendre le fonctionnement afin de coder le vôtre.
+- Si vous avez des questions, n'hésitez pas à me contacter ici : [Email](mailto:guillaumelamarque7@gmail.com)
+
+## Technologies
+
+- React
+- Sass
+- JavaScript
+
+## Auteur
+
+- **Douwd** - [Profil GitHub](https://github.com/Douwdy)
+
+## Remerciements
+
+Merci à OpenClassrooms pour cette opportunité de formation.
 
 ## Project Structure
 
-The project is organized as follows:
+Le projet est organisé comme suit :
 
 ```
 slashend-remake-react
@@ -30,38 +59,30 @@ slashend-remake-react
 
 ## Getting Started
 
-To get started with the project, follow these steps:
+Pour commencer avec le projet, suivez ces étapes :
 
-1. **Clone the repository:**
+1. **Clonez le dépôt :**
    ```
    git clone <repository-url>
    cd slashend-remake-react
    ```
 
-2. **Install dependencies:**
+2. **Installez les dépendances :**
    ```
    npm install
    ```
 
-3. **Run the application:**
+3. **Lancez l'application :**
    ```
    npm start
    ```
-   This will start the development server and open the application in your default browser at [http://localhost:3000](http://localhost:3000).
+   Cela démarrera le serveur de développement et ouvrira l'application dans votre navigateur par défaut à [http://localhost:3000](http://localhost:3000).
 
 ## Available Scripts
 
-In the project directory, you can run:
+Dans le répertoire du projet, vous pouvez exécuter :
 
-- `npm start`: Runs the app in development mode.
-- `npm test`: Launches the test runner.
-- `npm run build`: Builds the app for production.
-- `npm run eject`: Ejects the configuration files for customization.
-
-## Contributing
-
-Contributions are welcome! Please feel free to submit a pull request or open an issue for any suggestions or improvements.
-
-## License
-
-This project is licensed under the MIT License. See the LICENSE file for more details.
+- `npm start` : Lance l'application en mode développement.
+- `npm test` : Lance le test runner.
+- `npm run build` : Construit l'application pour la production.
+- `npm run eject` : Éjecte les fichiers de configuration pour personnalisation.
