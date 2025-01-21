@@ -1,7 +1,7 @@
 {
     "ridingCities": {
         "title": "Riding Cities",
-        "desc": "Le projet Riding Cities avait pour but d'intégrer la section Les membres fondateurs uniquement en HTML étant donné que le CSS était déjà écrit. Ce projet a été réalisé dans le cadre de ma formation chez OpenClassrooms.",
+        "desc": "Le projet Riding Cities avait pour but d'intégrer la section Les membres fondateurs uniquement en HTML, étant donné que le CSS était déjà écrit. Ce projet a été réalisé dans le cadre de ma formation chez OpenClassrooms.",
         "link": "https://github.com/Douwdy/Projet-2---Riding-Cities",
         "tech": "HTML"
     },

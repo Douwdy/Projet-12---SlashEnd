@@ -1,4 +1,3 @@
-import placeholder from '../../assets/img/placeholder.webp';
 import IlluSEO from '../../assets/img/Illustration/SEO.webp';
 import IlluDEV from '../../assets/img/Illustration/Dev.webp';
 import IlluUPLOAD from '../../assets/img/Illustration/Upload.webp';
