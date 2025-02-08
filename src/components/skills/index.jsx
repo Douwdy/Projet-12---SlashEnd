@@ -9,7 +9,7 @@ const Skills = () => {
             <article className='skills-article' key={index}>
                 <h4 className='skills-article_title'>{skill.title}</h4>
                 <p className='skills-article_desc'>{skill.description}</p>
-                <p className='skills-article_date'>{skill.date}</p>
+                <h4 className='skills-article_date'>{skill.date}</h4>
             </article>
         ))}
     </section>
