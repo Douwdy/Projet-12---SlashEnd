@@ -20,7 +20,7 @@ const Hero = () => {
                 </div>
             </div>
             <div className="hero-subtitle">
-                Gagnez en visibilité avec un site taillé pour votre entreprise
+                <h2>Gagnez en visibilité avec un site taillé pour votre entreprise</h2>
             </div>
             <div className="hero-btn">
                 <a href="https://docs.google.com/forms/d/e/1FAIpQLSd_ckIXxlyNAlX3YNRW1XLHlFtbHMtbJqOdGTsMCMR4sy9cqw/viewform?usp=sf_link">

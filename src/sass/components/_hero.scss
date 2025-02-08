@@ -85,14 +85,17 @@
         color: $color-text;
     }
     &-subtitle{
-        margin-top: -5px;
-        margin-bottom: 3px;
-        width: 243px;
-        text-align: center;
-        font-family: SpaceMono;
-        font-size: 0.9em;
-        color: $color-text;
-        filter: opacity(0.5);
+        h2{
+            font-weight: 300;
+            margin-top: -5px;
+            margin-bottom: 3px;
+            width: 243px;
+            text-align: center;
+            font-family: SpaceMono;
+            font-size: 0.9em;
+            color: $color-text;
+            filter: opacity(0.5);
+        }
     }
     &-btn{
         &_1{
@@ -208,14 +211,17 @@
             color: $color-text;
         }
         &-subtitle{
-            margin-top: -25px;
-            margin-bottom: 3px;
-            width: 423px;
-            text-align: center;
-            font-family: SpaceMono;
-            font-size: 1.3em;
-            color: $color-text;
-            filter: opacity(0.5);
+            h2{
+                font-weight: 300;
+                margin-top: -25px;
+                margin-bottom: 3px;
+                width: 423px;
+                text-align: center;
+                font-family: SpaceMono;
+                font-size: 1.3em;
+                color: $color-text;
+                filter: opacity(0.5);
+            }
         }
         &-btn{
             &_1{
