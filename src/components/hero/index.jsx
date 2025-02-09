@@ -25,7 +25,7 @@ const Hero = () => {
             <div className="hero-btn">
                 <a href="https://docs.google.com/forms/d/e/1FAIpQLSd_ckIXxlyNAlX3YNRW1XLHlFtbHMtbJqOdGTsMCMR4sy9cqw/viewform?usp=sf_link">
                     <div className="hero-btn_1 flex-center">
-                        Commander mon site 🚀
+                        Présenter mon projet 🚀
                     </div>
                 </a>
                 <div className="hero-btn_2"></div>
