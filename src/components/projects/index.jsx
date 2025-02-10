@@ -26,7 +26,7 @@ const Projects = () => {
         return selectedProject.tech.split(', ').map((tech) => {
             const techInfo = techIcons[tech] || { icon: faCode, color: '#000000' };
             return (
-                <FontAwesomeIcon key={tech} icon={techInfo.icon} style={{ color: techInfo.color }} />
+                <FontAwesomeIcon key={tech} icon={techInfo.icon} style={{ color: techInfo.color }} aria-label={tech} />
             );
         });
     };
@@ -41,6 +41,7 @@ const Projects = () => {
                         className="projects-deck_card flex-end"
                         id={projectId}
                         onClick={() => handleCardClick(projectId)}
+                        aria-label={`Project ${projectDescriptions[projectId].title}`}
                     ></div>
                 ))}
             </div>
@@ -52,7 +53,7 @@ const Projects = () => {
                         <div className="projects-desc_tech">
                             {getSelectedProjectTechs()}
                         </div>
-                        <a href={selectedProject.link}>
+                        <a href={selectedProject.link} aria-label={`View project ${selectedProject.title}`}>
                             <div className="projects-desc_btn flex-center">Voir le projet</div>
                         </a>
                     </div>
