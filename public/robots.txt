@@ -1,3 +1,12 @@
+# robots.txt for SlashEnd portfolio website
+# Website: https://slashend.fr
+
 User-agent: *
-Disallow:
-Sitemap: https://slashend.ovh/sitemap.xml
+Allow: /
+Disallow: /static/
+
+# Crawl delay to prevent server overload
+Crawl-delay: 10
+
+# Sitemap location
+Sitemap: https://slashend.fr/sitemap.xml
