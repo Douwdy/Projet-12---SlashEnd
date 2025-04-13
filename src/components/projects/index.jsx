@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faHtml5, faCss3Alt, faSass, faJs, faReact } from '@fortawesome/free-brands-svg-icons';
-import { faCode } from '@fortawesome/free-solid-svg-icons';
+import { faHtml5, faCss3Alt, faSass, faJs, faReact, faNode } from '@fortawesome/free-brands-svg-icons';
+import { faCode, faDatabase } from '@fortawesome/free-solid-svg-icons';
 
 import projectDescriptions from '../../assets/json/projectDescriptions.json';
 
@@ -20,7 +20,9 @@ const Projects = () => {
             CSS: { icon: faCss3Alt, color: '#1572B6' },
             SASS: { icon: faSass, color: '#CC6699' },
             JavaScript: { icon: faJs, color: '#F7DF1E' },
-            React: { icon: faReact, color: '#61DAFB' }
+            React: { icon: faReact, color: '#61DAFB' },
+            NodeJS: { icon: faNode, color: '#8CC84B' },
+            Database: { icon: faDatabase, color: '#FFD43B' },
         };
 
         return selectedProject.tech.split(', ').map((tech) => {

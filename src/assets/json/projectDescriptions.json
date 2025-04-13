@@ -17,12 +17,6 @@
         "link": "https://douwdy.github.io/Projet-4---OhMyFood/",
         "tech": "HTML, SASS"
     },
-    "printIt": {
-        "title": "Print It",
-        "desc": "Le projet Print It avait pour but de coder un carrousel en JavaScript pour la page d'accueil du site web d'une imprimerie. Ce projet a été réalisé dans le cadre de ma formation chez OpenClassrooms.",
-        "link": "https://github.com/Douwdy/Projet-5---Print-It",
-        "tech": "JavaScript"
-    },
     "sophieBluel": {
         "title": "Sophie Bluel",
         "desc": "Le projet Sophie Bluel avait pour but de coder un portfolio complet pour une architecte d'intérieur. Le site a été réalisé avec HTML, SASS et JavaScript. Le projet devait contenir un système de connexion pour manager les projets, ajout, suppression. Ce projet a été réalisé dans le cadre de ma formation chez OpenClassrooms.",
@@ -58,5 +52,11 @@
         "desc": "Le projet Refsco81 avait pour but de coder un site web basique mais respectant tout de même les normes d'accessibilité et de SEO. Le but du site est de guider les parents ayant un enfant handicapé pour réaliser les démarches pour obtenir de l'aide pour leur enfant à l'école.",
         "link": "https://refsco81.fr",
         "tech": "HTML, CSS, JavaScript"
+    },
+    "chesschool": {
+        "title": "ChesSchool",
+        "desc": "Le projet Chesschool as pour but de proposer une solution pour apprendre à jouer aux échecs. Le site propose plusieurs outils pédagogiques comme des problème d'échecs, un analyseur de partie, une base de donnée d'ouvertures, etc. Le site est en cours de développement et sera mis à jour régulièrement.",
+        "link": "https://chess.slashend.fr",
+        "tech": "React, SASS, NodeJS, Database"
     }
 }
